@@ -7,12 +7,7 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
     <FeedbackList>
       {options.map(option => (
         <FeedbackItem key={option}>
-          <Button
-            type="button"
-            name={option}
-            onClick={onLeaveFeedback}
-            id={option}
-          >
+          <Button type="button" name={option} onClick={onLeaveFeedback}>
             {option}
           </Button>
         </FeedbackItem>
@@ -21,7 +16,7 @@ export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   );
 };
 
-FeedbackOptions.protoTypes = {
+FeedbackOptions.prototype = {
   options: PropTypes.arrayOf(PropTypes.string).isRequired,
   onLeaveFeedback: PropTypes.func.isRequired,
 };
