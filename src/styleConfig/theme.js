@@ -1,4 +1,4 @@
-export const theme = {
+const theme = {
   colors: {
     mainTextColor: '#000000',
     secondTextColor: '#ffffff',
@@ -6,13 +6,27 @@ export const theme = {
 
     mainBgColor: '#ffffff',
     secondBgColor: '#000000',
-    accentBgColor: '#008000',
+    accentBgColor: '#0015ff',
 
     notificationMessage: '#cccccc',
-    notificationMessageGreen: 'rgba(0, 128, 0, 0.2)',
-    notificationMessageRed: 'rgba(255, 0, 0, 0.2)',
 
     mainAnimationHover: '250ms linear',
     mainShadow: '0px 0px 10px 2px rgba(0, 0, 0, 0.5)',
   },
+
+  fontSize: {
+    xs: '12px',
+    s: '14px',
+    m: '16px',
+    l: '20px',
+    xl: '30px',
+    xxl: '40px',
+  },
+  fontWeights: {
+    normal: 400,
+    semibold: 600,
+    bold: 700,
+  },
 };
+
+export default theme;
