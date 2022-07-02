@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Wrapper } from './ui/index';
 import { Section } from './section/Section';
-import { FeedbackOptions } from './feedbackOptions/FeedbackOptions';
+import { FeedbackOptions } from './feedback/FeedbackOptions';
 import { Statistics } from './statistics/Statistics';
 import { Notification } from './notification/Notification';
 
