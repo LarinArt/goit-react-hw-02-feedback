@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { FeedbackList, FeedbackItem } from './FeedbackOptions.style.js';
-import { Button } from 'components/ui/Button';
+import { Button } from '../ui/Button';
 
 export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
